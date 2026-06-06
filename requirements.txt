@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+supabase
+pinecone-client
+httpx
+python-dotenv
+pydantic
