@@ -15,3 +15,7 @@ services:
         sync: false
       - key: PINECONE_INDEX
         value: aihub
+      - key: GITHUB_TOKEN
+        sync: false   # optional – add your GitHub PAT for live triage
+      - key: ETSY_API_KEY
+        sync: false   # optional – for live Etsy API
